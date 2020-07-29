@@ -3,7 +3,7 @@ provider "aws" {
 #   access_key = ${aws_access_key_id}
    
 #   secret_key = ${aws_secret_access_key}
-  region = var.aws_west
+  region = var.aws_region
 }
 
 provider "random" {
